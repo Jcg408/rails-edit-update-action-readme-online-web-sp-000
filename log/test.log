@@ -898,6 +898,7 @@ Processing by ArticlesController#show as HTML
   Rendered articles/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
   [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (3.6ms)[0m  DELETE FROM "articles";
   [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
@@ -963,3 +964,5 @@ Processing by ArticlesController#show as HTML
   Rendered articles/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
   [1m[35m (0.3ms)[0m  rollback transaction
+=======
+>>>>>>> 6b27f4b6338fae6593848a9feafd14e23c777b5e
